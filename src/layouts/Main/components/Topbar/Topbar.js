@@ -43,24 +43,24 @@ const Topbar = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/"
+              href="/#"
               sx={{
                 color: theme.palette.common.white,
               }}
             >
-              View all pages
+              Speaker registration
             </Link>
           </Box>
           <Box marginX={2}>
             <Link
               underline="none"
               component="a"
-              href="/docs-introduction"
+              href="/attend"
               sx={{
                 color: theme.palette.common.white,
               }}
             >
-              Documentation
+              Apply to attend
             </Link>
           </Box>
           <Box>
@@ -68,11 +68,10 @@ const Topbar = ({ onSidebarOpen }) => {
               variant="contained"
               color="primary"
               component="a"
-              target="blank"
-              href="https://material-ui.com/store/items/the-front-landing-page/"
+              href="/exhibit"
               size="large"
             >
-              Purchase now
+              Apply to exhibit
             </Button>
           </Box>
         </Hidden>

@@ -1,18 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useTheme } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
-import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
-const SidebarNav = ({ pages, onClose }) => {
-  const theme = useTheme();
-  const activeLink = window && window.location ? window.location.pathname : '';
-
+const SidebarNav = ({ onClose }) => {
   return (
     <Box>
       <Box display={'flex'} justifyContent={'flex-end'} onClick={() => onClose()}>
@@ -21,70 +17,67 @@ const SidebarNav = ({ pages, onClose }) => {
         </IconButton>
       </Box>
       <Box paddingX={2} paddingBottom={2}>
-        <Box>
-          {pages.map((item, i) => (
-            <Box
-              key={i}
-              marginBottom={4}
+        <Box display="flex" alignItems={'center'} flexDirection={'column'}>
+          <Box>
+            <Link
+              component="a"
+              href="/#"
+              color="textPrimary"
             >
-              <Typography
-                variant="caption"
-                color="textSecondary"
-                sx={{
-                  fontWeight: 700,
-                  textTransform: 'uppercase',
-                  marginBottom: 1,
-                  display: 'block',
-                }}
-              >
-                {item.title}
-              </Typography>
-              <Grid container spacing={1}>
-                {item.pages.map((p, i) => (
-                  <Grid item xs={6} key={i}>
-                    <Link
-                      variant="body2"
-                      component={'a'}
-                      href={p.href}
-                      color={activeLink === p.href ? 'primary' : 'textPrimary'}
-                      sx={{
-                        fontWeight: activeLink === p.href ? 600 : 400,
-                        '&:hover': {
-                          textDecoration: 'none',
-                          color: theme.palette.primary.dark,
-                        },
-                      }}
-                      onClick={() => onClose()}
-                    >
-                      {p.title}
-                    </Link>
-                  </Grid>
-                ))}
-              </Grid>
-            </Box>
-          ))}
+              Speaker registration
+            </Link>
+          </Box>
+          <Box marginY={2}>
+            <Link
+              component="a"
+              href="/attend"
+              color="textPrimary"
+            >
+              Apply to attend
+            </Link>
+          </Box>
+          <Box>
+            <Link
+              component="a"
+              href="/exhibit"
+              color="textPrimary"
+            >
+              Apply to exhibit
+            </Link>
+          </Box>
         </Box>
-        <Box>
-          <Button
-            variant="outlined"
-            fullWidth
-            component="a"
-            href="/docs-introduction"
-          >
-            Documentation
-          </Button>
+        <Box marginY={2} display="flex" alignItems={'center'} justifyContent={'center'}>
+          <IconButton component={'a'} href={'https://twitter.com'} target={'blank'}>
+            <TwitterIcon fontSize="inherit" />
+          </IconButton>
+          <Box marginX={2}>
+            <IconButton component={'a'} href={'https://linkedin.com'} target={'blank'}>
+              <LinkedInIcon fontSize="inherit" />
+            </IconButton>
+          </Box>
+          <IconButton component={'a'} href={'https://facebook.com'} target={'blank'}>
+            <FacebookIcon fontSize="inherit" />
+          </IconButton>
         </Box>
-        <Box marginTop={1}>
-          <Button
-            variant="contained"
-            color="primary"
-            fullWidth
-            component="a"
-            target="blank"
-            href="https://material-ui.com/store/items/the-front-landing-page/"
-          >
-            Buy Now
-          </Button>
+        <Box display="flex" alignItems={'center'} justifyContent={'space-around'}>
+          <Box>
+            <Link
+              component="a"
+              href="/privacy"
+              color="textSecondary"
+            >
+              Privacy Policy
+            </Link>
+          </Box>
+          <Box>
+            <Link
+              component="a"
+              href="/cookies"
+              color="textSecondary"
+            >
+              Cookie Policy
+            </Link>
+          </Box>
         </Box>
       </Box>
     </Box>
@@ -92,7 +85,6 @@ const SidebarNav = ({ pages, onClose }) => {
 };
 
 SidebarNav.propTypes = {
-  pages: PropTypes.array.isRequired,
   onClose: PropTypes.func,
 };
 
