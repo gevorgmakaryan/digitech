@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Head from 'next/head';
 import Home from 'views/Home';
@@ -8,7 +9,7 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>FullPM customer interface</title>
+        <title>Digitech Milan | Join, exhibit and attend to Milan's first technology expo</title>
       </Head>
       <WithLayout component={Home} layout={Main} />
     </>
