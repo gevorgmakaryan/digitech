@@ -8,7 +8,7 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>FullPM customer interface</title>
+        <title>Digitech Milan | Cookie Policy</title>
       </Head>
       <WithLayout component={Cookies} layout={Main} />
     </>

@@ -8,7 +8,7 @@ export default function AttendPage() {
   return (
     <>
       <Head>
-        <title>FullPM customer interface</title>
+        <title>Digitech Milan | Come to Milan, attend Digitech Milan</title>
       </Head>
       <WithLayout component={Attend} layout={Main} />
     </>

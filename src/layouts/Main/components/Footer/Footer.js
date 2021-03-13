@@ -19,12 +19,12 @@ const Footer = () => (
         width={'100%'}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box display={'flex'} component="a" underline="none" href="/" title="webbee" height={24}>
+        <Box display={'flex'} component="a" underline="none" href="/" title="Digitech Milan" height={{ xs: 16, md: 22 }}>
           <Box
             component="img"
             height={'100%'}
-            src={'/assets/logos/webbee.svg'}
-            alt="webbee"
+            src={'/assets/logos/logo.svg'}
+            alt="Digitech Milan"
           />
         </Box>
         <Box display="flex" flexWrap={'wrap'} alignItems={'center'} justifyContent={'center'}>
@@ -102,7 +102,7 @@ const Footer = () => (
         </IconButton>
       </Box>
       <Typography align={'center'} variant={'subtitle2'} color="textSecondary" gutterBottom>
-        &copy; Webbee. 2022, Maccarian. All rights reserved
+        &copy; Digitech Milan. 2021. All rights reserved
       </Typography>
       <Typography align={'center'} variant={'caption'} color="textSecondary" component={'p'}>
       When you visit or interact with our sites, services or tools, we or our authorised service providers may use <strong><a href="/cookies">cookies</a></strong> for storing information to help provide you with a better, faster and safer experience and for marketing purposes.

@@ -11,7 +11,7 @@ const Exhibit = () => {
       <Box
         position="relative" 
         sx={{
-          background: 'url("/assets/backgrounds/palazzo-visconti.jpg") no-repeat center',
+          background: 'url("/assets/backgrounds/milan-hero.jpg") no-repeat center',
           backgroundSize: 'cover',
         }}
       >

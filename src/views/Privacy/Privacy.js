@@ -8,12 +8,12 @@ const Privacy = () => {
     <Container>
       <Box marginBottom={4}>
         <Typography variant="h3" gutterBottom sx={{ fontWeight: 700 }}>Privacy policy</Typography>
-        <Typography variant="subtitle1"><i>Updated March 20, 2020</i></Typography>
+        <Typography variant="subtitle1"><i>Updated March 15, 2021</i></Typography>
       </Box>
       <Box marginBottom={4}>
         <Typography variant="h4" gutterBottom sx={{ fontWeight: 700 }}>1. Scope</Typography>
         <Typography>
-          Digitexpo (<strong>“we”, “us”, “our”</strong>), organisers of expo “Digitexpo Milan” (a “Expo”), is committed to protecting your personal information.
+          Digitech Milan (<strong>“we”, “us”, “our”</strong>), organisers of expo “Digitexpo Milan” (an “Expo”), is committed to protecting your personal information.
           We invite you to read this Privacy Policy, which explains the types of information collected and created in connection with the relevant Expo,
           how and why we use such information, who we share it with and your legal rights.
           <br />
@@ -79,7 +79,7 @@ const Privacy = () => {
         <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>3.3 Marketing.</Typography>
         <Typography>
         If you opt-in to receiving marketing communications from us, we will use your personal information for outreach and marketing, such as to send you information about our future Expos and to exhibit attending companies. You can opt-out of these communications by using the unsubscribe links in our communications.
-        We may also use your information in order to market the Expos. For example, we sometimes use your image in our published list of Expo attendees. If you want to object to this use, please contact us here at info@digitexpo.it.
+        We may also use your information in order to market the Expos. For example, we sometimes use your image in our published list of Expo attendees. If you want to object to this use, please contact us here at info@Digitech Milan.it.
         </Typography>
       </Box>
       <Box marginBottom={4}>

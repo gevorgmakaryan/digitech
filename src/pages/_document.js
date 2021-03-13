@@ -9,11 +9,45 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <link rel="shortcut icon" href="/favicon.ico" />
-          <meta name="theme-color" content="#ffffff" />
+          <meta name="theme-color" content="#222B45" />
+          {/* Social tags */}
+          <meta
+            name="keywords"
+            content="Digitech Milan, Expo, Digital Expo, Digitech Expo, Milan, Tech, Technology, Summit"
+          />
           <meta
             name="description"
-            content="FullPM Customer Interface Website."
+            content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
           />
+
+          {/* Schema.org  */}
+          <meta itemProp="name" content="Digitech Milan" />
+          <meta
+            itemProp="description"
+            content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
+          />
+          <meta itemProp="image" content="https://digitechmilan.com/social.jpg" />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@digitechmilan" />
+          <meta name="twitter:title" content="Digitech Milan" />
+          <meta
+            name="twitter:description"
+            content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
+          />
+          <meta name="twitter:creator" content="@digitechmilan" />
+          <meta name="twitter:image" content="https://digitechmilan.com/social.jpg" />
+
+          {/* Open Graph */}
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="Digitech Milan" />
+          <meta property="og:title" content="Digitech Milan" />
+          <meta property="og:description" content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."/>
+          <meta property="og:url" content="https://digitechmilan.com/" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:image" content="https://digitechmilan.com/social.png" />
+          <meta property="og:image:secure_url" content="https://digitechmilan.com/social.jpg" />
           <meta
             name="robots"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"

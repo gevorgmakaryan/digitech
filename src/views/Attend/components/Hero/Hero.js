@@ -18,7 +18,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Come to Milan, attend Digitech Milan 2022
+        Come to Milan, attend Digitech Milan
       </Typography>
       <Typography
         variant={'h4'}
@@ -26,10 +26,10 @@ const Hero = () => {
         gutterBottom
         sx={{
           color: alpha(theme.palette.common.white, 0.7),
-          fontWeight: 700,
+          fontWeight: 400,
         }}
       >
-        Discover the world's leading companies at <strong>Digitech Milan 2022</strong>
+        Discover the world's leading companies at <strong>Digitech Milan</strong>
       </Typography>
     </Box>
   );

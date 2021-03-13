@@ -18,7 +18,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Join, present and develop your business at Digitech Milan 2022
+        Join, present and develop your business at Digitech Milan
       </Typography>
       <Typography
         variant={'h4'}
@@ -26,7 +26,7 @@ const Hero = () => {
         gutterBottom
         sx={{
           color: alpha(theme.palette.common.white, 0.7),
-          fontWeight: 700,
+          fontWeight: 400,
         }}
       >
         Digitech creates remarkable opportunity for tech companies to exhibit at Italy's financial capital Milan.

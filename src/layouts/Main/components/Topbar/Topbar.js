@@ -28,12 +28,12 @@ const Topbar = ({ onSidebarOpen }) => {
             <MenuIcon />
           </IconButton>
         </Box>
-        <Box display={'flex'} alignItems="baseline" component="a" underline="none" href="/" title="webbee" height={{ xs: 28, md: 32 }}>
+        <Box display={'flex'} alignItems="baseline" component="a" underline="none" href="/" title="Digitech Milan" height={{ xs: 20, sm: 24, md: 26 }}>
           <Box
             component="img"
             height={'100%'}
-            src={'/assets/logos/webbee.svg'}
-            alt="webbee"
+            src={'/assets/logos/logo--negative.svg'}
+            alt="Digitech Milan"
           />
         </Box>
       </Box>
