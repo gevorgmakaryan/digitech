@@ -47,15 +47,15 @@ const SidebarNav = ({ onClose }) => {
           </Box>
         </Box>
         <Box marginY={2} display="flex" alignItems={'center'} justifyContent={'center'}>
-          <IconButton component={'a'} href={'https://twitter.com'} target={'blank'}>
+          <IconButton component={'a'} href={'https://twitter.com/DigitechMilan'} target={'blank'}>
             <TwitterIcon fontSize="inherit" />
           </IconButton>
           <Box marginX={2}>
-            <IconButton component={'a'} href={'https://linkedin.com'} target={'blank'}>
+            <IconButton component={'a'} href={'https://linkedin.com/company/digitechmilan/'} target={'blank'}>
               <LinkedInIcon fontSize="inherit" />
             </IconButton>
           </Box>
-          <IconButton component={'a'} href={'https://facebook.com'} target={'blank'}>
+          <IconButton component={'a'} href={'https://facebook.com/digitechmilan'} target={'blank'}>
             <FacebookIcon fontSize="inherit" />
           </IconButton>
         </Box>

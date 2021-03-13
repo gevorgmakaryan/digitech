@@ -30,13 +30,13 @@ export default class MyDocument extends Document {
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@digitechmilan" />
+          <meta name="twitter:site" content="@DigitechMilan" />
           <meta name="twitter:title" content="Digitech Milan" />
           <meta
             name="twitter:description"
             content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
           />
-          <meta name="twitter:creator" content="@digitechmilan" />
+          <meta name="twitter:creator" content="@DigitechMilan" />
           <meta name="twitter:image" content="https://digitechmilan.com/social.png" />
 
           {/* Open Graph */}
