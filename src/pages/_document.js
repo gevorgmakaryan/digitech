@@ -26,7 +26,7 @@ export default class MyDocument extends Document {
             itemProp="description"
             content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
           />
-          <meta itemProp="image" content="https://digitechmilan.com/social.jpg" />
+          <meta itemProp="image" content="https://digitechmilan.com/social.png" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
             content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
           />
           <meta name="twitter:creator" content="@digitechmilan" />
-          <meta name="twitter:image" content="https://digitechmilan.com/social.jpg" />
+          <meta name="twitter:image" content="https://digitechmilan.com/social.png" />
 
           {/* Open Graph */}
           <meta property="og:type" content="website" />
@@ -47,7 +47,7 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://digitechmilan.com/" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:image" content="https://digitechmilan.com/social.png" />
-          <meta property="og:image:secure_url" content="https://digitechmilan.com/social.jpg" />
+          <meta property="og:image:secure_url" content="https://digitechmilan.com/social.png" />
           <meta
             name="robots"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
