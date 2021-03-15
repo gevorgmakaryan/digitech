@@ -8,7 +8,7 @@ export default function ExhibitPage() {
   return (
     <>
       <Head>
-        <title>Digitech Milan | Join, present and develop your business at Digitech Milan</title>
+        <title>DigiTech Milan | Join, present and develop your business at DigiTech Milan</title>
       </Head>
       <WithLayout component={Exhibit} layout={Main} />
     </>

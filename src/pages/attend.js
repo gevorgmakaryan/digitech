@@ -8,7 +8,7 @@ export default function AttendPage() {
   return (
     <>
       <Head>
-        <title>Digitech Milan | Come to Milan, attend Digitech Milan</title>
+        <title>DigiTech Milan | Come to Milan, attend DigiTech Milan</title>
       </Head>
       <WithLayout component={Attend} layout={Main} />
     </>

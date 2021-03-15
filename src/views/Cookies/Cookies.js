@@ -24,7 +24,7 @@ const Cookies = () => {
       </Box>
       <Box marginBottom={4}>
         <Typography variant="h4" gutterBottom sx={{ fontWeight: 700 }}>2. What type of cookies do we use?</Typography>
-        <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>2.1. Which cookies are used by Digitech Milan?</Typography>
+        <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>2.1. Which cookies are used by DigiTech Milan?</Typography>
         <Typography gutterBottom>
         Most of the cookies we use are session cookies, which are automatically deleted from your hard disk at the end of the browser session. Session cookies are needed to help the website function.
         </Typography>
@@ -39,12 +39,12 @@ const Cookies = () => {
         <br />
         <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>2.3 What is onsite targeting?</Typography>
         <Typography>
-        Data is collected on Digitech Milan websites using cookies for optimisation of our advertising and of the entire online experience. This data is not used to identify you personally but solely serves the purpose of conducting a pseudonymous evaluation of the use made of our pages. With this technology, we can present advertising, special offers and services to you, the content of which is based on information obtained from a connection to click-stream analysis (for example, advertising that is based on the fact that during the past few days only you have viewed a specific page). Our aim here is to make our offers as relevant to you as possible and to present advertising that corresponds to your areas of interest.
+        Data is collected on DigiTech Milan websites using cookies for optimisation of our advertising and of the entire online experience. This data is not used to identify you personally but solely serves the purpose of conducting a pseudonymous evaluation of the use made of our pages. With this technology, we can present advertising, special offers and services to you, the content of which is based on information obtained from a connection to click-stream analysis (for example, advertising that is based on the fact that during the past few days only you have viewed a specific page). Our aim here is to make our offers as relevant to you as possible and to present advertising that corresponds to your areas of interest.
         </Typography>
         <br />
         <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>2.4 Are there also cookies from third-party suppliers (so-called “third-party cookies”)?</Typography>
         <Typography>
-        Digitech Milan makes use of a number of web partners, for example, Google Analytics, Facebook and Doubleclick who help to make our websites more interesting for you. This is why, when visiting our websites, the cookies of these companies may also be stored on your hard disk. These cookies are deleted automatically after a pre-specified period. The cookies of our partner companies also contain solely pseudonymous or anonymous aggregated data. This relates, for example, to data on which pages you have looked at, whether anything was bought or a signup occurred, among other actions. Here, some of our advertising partners also collect information from our websites on which pages you have previously visited in order to be able to show you advertising that best complies with your interests.
+        DigiTech Milan makes use of a number of web partners, for example, Google Analytics, Facebook and Doubleclick who help to make our websites more interesting for you. This is why, when visiting our websites, the cookies of these companies may also be stored on your hard disk. These cookies are deleted automatically after a pre-specified period. The cookies of our partner companies also contain solely pseudonymous or anonymous aggregated data. This relates, for example, to data on which pages you have looked at, whether anything was bought or a signup occurred, among other actions. Here, some of our advertising partners also collect information from our websites on which pages you have previously visited in order to be able to show you advertising that best complies with your interests.
         </Typography>
         <br />
         <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>2.5 Retargeting</Typography>
@@ -54,7 +54,7 @@ const Cookies = () => {
         <br />
         <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>2.6 How can you prevent the storage of cookies?</Typography>
         <Typography>
-        In your browser, you can enable a setting that storage of cookies is only permissible when you agree to it, and thereby prevent the further storage of cookies in the future. If you want to accept only Digitech Milan cookies but not the cookies of our service companies and partners, you can select the browser setting ”Block third-party cookies”. As a rule, the ‘Help’ function in the menu bar of your web browser will show you how to reject new cookies and how to inactivate old ones.
+        In your browser, you can enable a setting that storage of cookies is only permissible when you agree to it, and thereby prevent the further storage of cookies in the future. If you want to accept only DigiTech Milan cookies but not the cookies of our service companies and partners, you can select the browser setting ”Block third-party cookies”. As a rule, the ‘Help’ function in the menu bar of your web browser will show you how to reject new cookies and how to inactivate old ones.
         The following links provide information on how to modify the cookies settings on some popular browsers:
           <br />
           <a href="http://support.apple.com/kb/PH5042" target="_blank" rel="noopener noreferrer">Apple Safari</a>
@@ -69,7 +69,7 @@ const Cookies = () => {
       <Box marginBottom={4}>
         <Typography variant="h4" gutterBottom sx={{ fontWeight: 700 }}>3. Log Files</Typography>
         <Typography>
-          With each visit to the Digitech Milan website, usage data is transmitted by the respective Internet browser and is stored in record files, the so-called server log files. The records stored in this way contain data on date and time of the call-up, name of the page called up, IP address, referrer URL (URL of origin, from which you came to the websites), the quantities of data transferred, product information and the version of the browser used. These log file data records are evaluated by us, to help us further improve our websites, as well as to make our pages more user-friendly, to detect and correct errors more quickly and to control server capacities. We also use log file data records to defend our site against attacks, e.g. in the context of DDOS attacks, which are intended to block access to our site by overloading it with enquiries.
+          With each visit to the DigiTech Milan website, usage data is transmitted by the respective Internet browser and is stored in record files, the so-called server log files. The records stored in this way contain data on date and time of the call-up, name of the page called up, IP address, referrer URL (URL of origin, from which you came to the websites), the quantities of data transferred, product information and the version of the browser used. These log file data records are evaluated by us, to help us further improve our websites, as well as to make our pages more user-friendly, to detect and correct errors more quickly and to control server capacities. We also use log file data records to defend our site against attacks, e.g. in the context of DDOS attacks, which are intended to block access to our site by overloading it with enquiries.
         </Typography>
       </Box>
       <Box marginBottom={4}>

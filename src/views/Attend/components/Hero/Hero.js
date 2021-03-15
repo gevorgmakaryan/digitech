@@ -18,7 +18,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Come to Milan, attend Digitech Milan
+        Come to Milan, attend DigiTech Milan
       </Typography>
       <Typography
         variant={'h4'}
@@ -29,7 +29,7 @@ const Hero = () => {
           fontWeight: 400,
         }}
       >
-        Discover the world's leading companies at <strong>Digitech Milan</strong>
+        Discover the world's leading companies at <strong>DigiTech Milan</strong>
       </Typography>
     </Box>
   );

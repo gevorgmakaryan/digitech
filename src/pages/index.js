@@ -9,7 +9,7 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>Digitech Milan | Join, exhibit and attend to Milan's first technology expo</title>
+        <title>DigiTech Milan | Join, exhibit and attend to Milan's first technology expo</title>
       </Head>
       <WithLayout component={Home} layout={Main} />
     </>

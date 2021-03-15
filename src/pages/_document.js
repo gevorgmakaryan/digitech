@@ -13,37 +13,37 @@ export default class MyDocument extends Document {
           {/* Social tags */}
           <meta
             name="keywords"
-            content="Digitech Milan, Expo, Digital Expo, Digitech Expo, Milan, Tech, Technology, Summit"
+            content="DigiTech Milan, Expo, Digital Expo, DigiTech Expo, Milan, Tech, Technology, Summit"
           />
           <meta
             name="description"
-            content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
+            content="DigiTech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at DigiTech Milan."
           />
 
           {/* Schema.org  */}
-          <meta itemProp="name" content="Digitech Milan" />
+          <meta itemProp="name" content="DigiTech Milan" />
           <meta
             itemProp="description"
-            content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
+            content="DigiTech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at DigiTech Milan."
           />
           <meta itemProp="image" content="https://digitechmilan.com/social.png" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@DigitechMilan" />
-          <meta name="twitter:title" content="Digitech Milan" />
+          <meta name="twitter:title" content="DigiTech Milan" />
           <meta
             name="twitter:description"
-            content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."
+            content="DigiTech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at DigiTech Milan."
           />
           <meta name="twitter:creator" content="@DigitechMilan" />
           <meta name="twitter:image" content="https://digitechmilan.com/social.png" />
 
           {/* Open Graph */}
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Digitech Milan" />
-          <meta property="og:title" content="Digitech Milan" />
-          <meta property="og:description" content="Digitech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at Digitech Milan."/>
+          <meta property="og:site_name" content="DigiTech Milan" />
+          <meta property="og:title" content="DigiTech Milan" />
+          <meta property="og:description" content="DigiTech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at DigiTech Milan."/>
           <meta property="og:url" content="https://digitechmilan.com/" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:image" content="https://digitechmilan.com/social.png" />

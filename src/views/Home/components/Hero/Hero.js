@@ -22,7 +22,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Join, present and develop your business at Digitech Milan.
+        Join, present and develop your business at DigiTech Milan.
       </Typography>
       <Typography
         variant={'h4'}
@@ -33,7 +33,7 @@ const Hero = () => {
           fontWeight: 400,
         }}
       >
-        Digitech creates remarkable opportunity for tech companies to exhibit at Italy's financial capital Milan.
+        DigiTech creates remarkable opportunity for tech companies to exhibit at Italy's financial capital Milan.
       </Typography>
       <Box
         marginTop={4}

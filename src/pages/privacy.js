@@ -8,7 +8,7 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>Digitech Milan | Privacy Policy</title>
+        <title>DigiTech Milan | Privacy Policy</title>
       </Head>
       <WithLayout component={Privacy} layout={Main} />
     </>
