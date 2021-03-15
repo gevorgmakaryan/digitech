@@ -21,7 +21,8 @@ const SidebarNav = ({ onClose }) => {
           <Box>
             <Link
               component="a"
-              href="/#"
+              href="https://forms.gle/V2NDV914invuTWrn6"
+              target={'_blank'}
               color="textPrimary"
             >
               Speaker registration

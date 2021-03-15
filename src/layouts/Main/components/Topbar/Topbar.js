@@ -43,7 +43,8 @@ const Topbar = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/#"
+              href="https://forms.gle/V2NDV914invuTWrn6"
+              target={'_blank'}
               sx={{
                 color: theme.palette.common.white,
               }}

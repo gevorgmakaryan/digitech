@@ -45,6 +45,8 @@ const Hero = () => {
           marginBottom={{ xs: 2, sm: 0 }}
         >
           <Button
+            component={'a'}
+            href={'/attend'}
             variant={'outlined'}
             size={'large'}
             fullWidth={!isMd}
@@ -57,7 +59,13 @@ const Hero = () => {
           </Button>
         </Box>
         <Box>
-          <Button variant={'contained'} size={'large'} fullWidth={!isMd}>
+          <Button
+            component={'a'}
+            href={'/exhibit'}
+            variant={'contained'}
+            size={'large'}
+            fullWidth={!isMd}
+          >
             Apply to exhibit
           </Button>
         </Box>

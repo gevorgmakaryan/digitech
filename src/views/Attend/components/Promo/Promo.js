@@ -32,7 +32,7 @@ const Promo = () => {
             </Grid>
           ))}
           <Grid item container xs={12} justifyContent={'center'}>
-            <Button size={'large'} component={'a'} href={'#'} variant={'contained'}>
+            <Button size={'large'} component={'a'} href={'https://forms.gle/dR3yTYJ8MepyTjwX8'} target={'_blank'} variant={'contained'}>
             Register to attend
             </Button>
           </Grid>
