@@ -20,6 +20,20 @@ export default class MyDocument extends Document {
             content="DigiTech Milan brings together the people and companies redefining the global tech industry. Join, present and develop your business at DigiTech Milan."
           />
 
+          {/* Global site tag (gtag.js) - Google Analytics */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XS2XT8M7DY"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+      
+                  gtag('config', 'G-XS2XT8M7DY');
+              `
+            }}
+          />
+
           {/* Schema.org  */}
           <meta itemProp="name" content="DigiTech Milan" />
           <meta
