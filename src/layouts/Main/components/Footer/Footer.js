@@ -8,6 +8,7 @@ import IconButton from '@material-ui/core/IconButton';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 const Footer = () => (
   <Grid container spacing={2}>
@@ -67,7 +68,39 @@ const Footer = () => (
       </Box>
     </Grid>
     <Grid item xs={12}>
-      <Box display="flex" alignItems={'center'} justifyContent={'center'}>
+      <Box marginY={1} display="flex" alignItems={'center'} justifyContent={'center'} width={'100%'}>
+        <Box marginRight={2}>
+          <IconButton component={'a'} href={'https://twitter.com/DigitechMilan'} target={'blank'}>
+            <TwitterIcon fontSize="inherit" />
+          </IconButton>
+        </Box>
+        <Box marginRight={2}>
+          <IconButton component={'a'} href={'https://linkedin.com/company/digitechmilan/'} target={'blank'}>
+            <LinkedInIcon fontSize="inherit" />
+          </IconButton>
+        </Box>
+        <Box marginRight={2}>
+          <IconButton component={'a'} href={'https://facebook.com/digitechmilan'} target={'blank'}>
+            <FacebookIcon fontSize="inherit" />
+          </IconButton>
+        </Box>
+        <Box>
+          <IconButton component={'a'} href={'https://www.instagram.com/digitechmilan/'} target={'blank'}>
+            <InstagramIcon fontSize="inherit" />
+          </IconButton>
+        </Box>
+      </Box>
+      <Box display="flex" alignItems={'center'} justifyContent={'center'} marginBottom={2}>
+        <Link
+          component="a"
+          href="mailto:info@digitechmilan.com"
+          color="primary"
+          variant={'subtitle2'}
+        >
+          info@digitechmilan.com
+        </Link>
+      </Box>
+      <Box display="flex" alignItems={'center'} justifyContent={'center'} marginBottom={2}>
         <Box marginRight={2}>
           <Link
             component="a"
@@ -88,19 +121,6 @@ const Footer = () => (
             Cookie Policy
           </Link>
         </Box>
-      </Box>
-      <Box marginY={1} display="flex" alignItems={'center'} justifyContent={'center'} width={'100%'}>
-        <IconButton component={'a'} href={'https://twitter.com/DigitechMilan'} target={'blank'}>
-          <TwitterIcon fontSize="inherit" />
-        </IconButton>
-        <Box marginX={2}>
-          <IconButton component={'a'} href={'https://linkedin.com/company/digitechmilan/'} target={'blank'}>
-            <LinkedInIcon fontSize="inherit" />
-          </IconButton>
-        </Box>
-        <IconButton component={'a'} href={'https://facebook.com/digitechmilan'} target={'blank'}>
-          <FacebookIcon fontSize="inherit" />
-        </IconButton>
       </Box>
       <Typography align={'center'} variant={'subtitle2'} color="textSecondary" gutterBottom>
         &copy; DigiTech Milan. 2021. All rights reserved
