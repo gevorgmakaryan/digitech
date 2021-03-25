@@ -60,12 +60,12 @@ const SidebarNav = ({ onClose }) => {
             </IconButton>
           </Box>
           <Box marginRight={2}>
-            <IconButton component={'a'} href={'https://facebook.com/digitechmilan'} target={'blank'}>
+            <IconButton component={'a'} href={'https://facebook.com/digitechexpomilan'} target={'blank'}>
               <FacebookIcon fontSize="inherit" />
             </IconButton>
           </Box>
           <Box>
-            <IconButton component={'a'} href={'https://www.instagram.com/digitechmilan/'} target={'blank'}>
+            <IconButton component={'a'} href={'https://www.instagram.com/digitech.milan/'} target={'blank'}>
               <InstagramIcon fontSize="inherit" />
             </IconButton>
           </Box>
