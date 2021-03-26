@@ -20,13 +20,42 @@ const Footer = () => (
         width={'100%'}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box display={'flex'} component="a" underline="none" href="/" title="DigiTech Milan" height={{ xs: 16, md: 22 }}>
+        <Box
+          display={'flex'}
+          alignItems="center"
+          component="a"
+          underline="none"
+          href="/"
+          title="DigiTech Milan"
+          sx={{
+            textDecoration: 'none !important',
+          }}
+        >
           <Box
             component="img"
-            height={'100%'}
+            width={{ xs: 40, sm: 50 }}
             src={'/assets/logos/logo.svg'}
             alt="DigiTech Milan"
+            marginRight={{ xs: 1, sm: 2 }}
           />
+          <Box display={'flex'} flexDirection={'column'} alignItems={'flex-start'}>
+            <Box
+              component="img"
+              height={{ xs: 25, sm: 30 }}
+              width={'auto'}
+              src={'/assets/logos/logo-alternate--dark.svg'}
+              alt="DigiTech Milan"
+            />
+            <Typography
+              variant={'subtitle2'}
+              sx={{
+                textDecoration: 'none',
+                color: 'text.primary',
+              }}
+            >
+              15 - 17 October, 2021
+            </Typography>
+          </Box>
         </Box>
         <Box display="flex" flexWrap={'wrap'} alignItems={'center'} justifyContent={'center'}>
           <Box marginTop={1} marginRight={2}>

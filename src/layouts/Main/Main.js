@@ -1,28 +1,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useTheme } from '@material-ui/core/styles';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
-import Box from '@material-ui/core/Box';
-import Slide from '@material-ui/core/Slide';
 import { Topbar, Sidebar, Footer } from './components';
 import Container from 'common/Container';
-import { pages } from '../navigation';
-
-const HideOnScroll = ({ children }) => {
-  const trigger = useScrollTrigger();
-
-  return (
-    <Slide appear={false} direction="down" in={!trigger}>
-      {children}
-    </Slide>
-  );
-};
-
-HideOnScroll.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 const Main = ({ children }) => {
   const theme = useTheme();
@@ -45,7 +27,7 @@ const Main = ({ children }) => {
         }}
         elevation={1}
       >
-        <Container paddingY={{ xs: 1/2, sm: 1 }}>
+        <Container paddingY={{ xs: 1, sm: 1.5 }}>
           <Topbar onSidebarOpen={handleSidebarOpen} />
         </Container>
       </AppBar>
@@ -53,7 +35,6 @@ const Main = ({ children }) => {
         onClose={handleSidebarClose}
         open={openSidebar}
         variant="temporary"
-        pages={pages}
       />
       <main>
         <Divider />

@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Typography from '@material-ui/core/Typography';
 
 const Topbar = ({ onSidebarOpen }) => {
   const theme = useTheme();
@@ -28,13 +29,43 @@ const Topbar = ({ onSidebarOpen }) => {
             <MenuIcon />
           </IconButton>
         </Box>
-        <Box display={'flex'} alignItems="baseline" component="a" underline="none" href="/" title="DigiTech Milan" height={{ xs: 20, sm: 24, md: 26 }}>
+        <Box
+          display={'flex'}
+          alignItems="center"
+          component="a"
+          underline="none"
+          href="/"
+          title="DigiTech Milan"
+          sx={{
+            textDecoration: 'none !important',
+          }}
+        >
           <Box
             component="img"
-            height={'100%'}
-            src={'/assets/logos/logo--negative.svg'}
+            width={{ xs: 40, sm: 60 }}
+            src={'/assets/logos/logo.svg'}
             alt="DigiTech Milan"
+            marginRight={{ xs: 1, sm: 2 }}
           />
+          <Box display={'flex'} flexDirection={'column'} alignItems={'flex-start'}>
+            <Box
+              component="img"
+              height={40}
+              width={'auto'}
+              src={'/assets/logos/logo-alternate.svg'}
+              alt="DigiTech Milan"
+            />
+            <Hidden smDown>
+              <Typography
+                sx={{
+                  textDecoration: 'none',
+                  color: theme.palette.common.white,
+                }}
+              >
+                15 - 17 October, 2021
+              </Typography>
+            </Hidden>
+          </Box>
         </Box>
       </Box>
       <Box display="flex" alignItems={'center'}>
@@ -47,6 +78,8 @@ const Topbar = ({ onSidebarOpen }) => {
               target={'_blank'}
               sx={{
                 color: theme.palette.common.white,
+                textTransform: 'uppercase',
+                fontWeight: 600,
               }}
             >
               Speaker registration
@@ -60,6 +93,8 @@ const Topbar = ({ onSidebarOpen }) => {
               target={'_blank'}
               sx={{
                 color: theme.palette.common.white,
+                textTransform: 'uppercase',
+                fontWeight: 600,
               }}
             >
               Apply to attend
@@ -73,6 +108,10 @@ const Topbar = ({ onSidebarOpen }) => {
               href={'https://forms.gle/U4FFcrsNWCf559sV9'}
               target={'_blank'}
               size="large"
+              sx={{
+                textTransform: 'uppercase',
+                fontWeight: 600,
+              }}
             >
               Apply to exhibit
             </Button>

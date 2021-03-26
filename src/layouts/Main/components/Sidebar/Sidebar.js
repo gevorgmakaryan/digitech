@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const Sidebar = props => {
-  const { pages, open, variant, onClose, className, ...rest } = props;
+  const { open, variant, onClose, className, ...rest } = props;
 
   const classes = useStyles();
 
@@ -37,7 +37,7 @@ const Sidebar = props => {
       variant={variant}
     >
       <div {...rest} className={clsx(classes.root, className)}>
-        <SidebarNav className={classes.nav} pages={pages} onClose={onClose} />
+        <SidebarNav className={classes.nav} onClose={onClose} />
       </div>
     </Drawer>
   );
@@ -48,7 +48,6 @@ Sidebar.propTypes = {
   onClose: PropTypes.func,
   open: PropTypes.bool.isRequired,
   variant: PropTypes.string.isRequired,
-  pages: PropTypes.array.isRequired,
 };
 
 export default Sidebar;
