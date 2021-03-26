@@ -56,7 +56,8 @@ const Topbar = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/attend"
+              href="https://forms.gle/dR3yTYJ8MepyTjwX8"
+              target={'_blank'}
               sx={{
                 color: theme.palette.common.white,
               }}
@@ -69,7 +70,8 @@ const Topbar = ({ onSidebarOpen }) => {
               variant="contained"
               color="primary"
               component="a"
-              href="/exhibit"
+              href={'https://forms.gle/U4FFcrsNWCf559sV9'}
+              target={'_blank'}
               size="large"
             >
               Apply to exhibit

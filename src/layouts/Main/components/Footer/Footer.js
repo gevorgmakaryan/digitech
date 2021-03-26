@@ -45,7 +45,8 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/attend"
+              href="https://forms.gle/dR3yTYJ8MepyTjwX8"
+              target={'_blank'}
               color="textPrimary"
               variant={'subtitle2'}
             >
@@ -57,8 +58,8 @@ const Footer = () => (
               variant="outlined"
               color="primary"
               component="a"
-              target="blank"
-              href="/exhibit"
+              href={'https://forms.gle/U4FFcrsNWCf559sV9'}
+              target={'_blank'}
               size="small"
             >
               Apply to exhibit

@@ -14,23 +14,26 @@ const Hero = () => {
   return (
     <Box>
       <Typography
-        variant={'h2'}
+        variant={'h3'}
         component={'h1'}
+        align={'center'}
         gutterBottom
         sx={{
           color: theme.palette.common.white,
           fontWeight: 700,
+          textTransform: 'uppercase',
         }}
       >
-        Join, present and develop your business at DigiTech Milan.
+        Join, present and develop your business at DigiTech Milan
       </Typography>
       <Typography
-        variant={'h4'}
+        variant={'h6'}
         component={'h3'}
         gutterBottom
+        align={'center'}
         sx={{
-          color: alpha(theme.palette.common.white, 0.7),
-          fontWeight: 400,
+          color: theme.palette.common.white,
+          fontWeight: 300,
         }}
       >
         DigiTech creates remarkable opportunity for tech companies to exhibit at Italy's financial capital Milan.
@@ -38,6 +41,7 @@ const Hero = () => {
       <Box
         marginTop={4}
         display={'flex'}
+        justifyContent={'center'}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
         <Box
@@ -46,7 +50,8 @@ const Hero = () => {
         >
           <Button
             component={'a'}
-            href={'/attend'}
+            href="https://forms.gle/dR3yTYJ8MepyTjwX8"
+            target={'_blank'}
             variant={'outlined'}
             size={'large'}
             fullWidth={!isMd}
@@ -61,7 +66,8 @@ const Hero = () => {
         <Box>
           <Button
             component={'a'}
-            href={'/exhibit'}
+            href={'https://forms.gle/U4FFcrsNWCf559sV9'}
+            target={'_blank'}
             variant={'contained'}
             size={'large'}
             fullWidth={!isMd}

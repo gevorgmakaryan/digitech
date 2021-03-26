@@ -21,12 +21,12 @@ const Publishers = () => {
     className: classes.slider,
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
   };
 
   return (

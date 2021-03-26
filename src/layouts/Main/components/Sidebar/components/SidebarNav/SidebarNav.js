@@ -32,7 +32,8 @@ const SidebarNav = ({ onClose }) => {
           <Box marginY={2}>
             <Link
               component="a"
-              href="/attend"
+              href="https://forms.gle/dR3yTYJ8MepyTjwX8"
+              target={'_blank'}
               color="textPrimary"
             >
               Apply to attend
@@ -41,7 +42,8 @@ const SidebarNav = ({ onClose }) => {
           <Box>
             <Link
               component="a"
-              href="/exhibit"
+              href={'https://forms.gle/U4FFcrsNWCf559sV9'}
+              target={'_blank'}
               color="textPrimary"
             >
               Apply to exhibit

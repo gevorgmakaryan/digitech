@@ -38,19 +38,17 @@ const Main = ({ children }) => {
 
   return (
     <div>
-      <HideOnScroll>
-        <AppBar
-          position={'fixed'}
-          sx={{
-            backgroundColor: theme.palette.background.dark,
-          }}
-          elevation={1}
-        >
-          <Container paddingY={{ xs: 1/2, sm: 1 }}>
-            <Topbar onSidebarOpen={handleSidebarOpen} />
-          </Container>
-        </AppBar>
-      </HideOnScroll>
+      <AppBar
+        position={'static'}
+        sx={{
+          backgroundColor: theme.palette.background.dark,
+        }}
+        elevation={1}
+      >
+        <Container paddingY={{ xs: 1/2, sm: 1 }}>
+          <Topbar onSidebarOpen={handleSidebarOpen} />
+        </Container>
+      </AppBar>
       <Sidebar
         onClose={handleSidebarClose}
         open={openSidebar}
@@ -58,7 +56,7 @@ const Main = ({ children }) => {
         pages={pages}
       />
       <main>
-        <Box height={{ xs: 56, sm: 64 }} />
+        <Divider />
         {children}
         <Divider />
       </main>

@@ -5,7 +5,7 @@ const getTheme = () => responsiveFontSizes(
   createMuiTheme({
     palette,
     typography: {
-      fontFamily: '"Inter", sans-serif',
+      fontFamily: 'Lato',
       button: {
         textTransform: 'none',
         fontWeight: 600,

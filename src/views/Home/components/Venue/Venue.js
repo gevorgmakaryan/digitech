@@ -8,19 +8,21 @@ const Venue = () => {
     <Box>
       <Box marginBottom={4}>
         <Typography
-          variant="h3"
+          variant="h6"
           gutterBottom
           align="center"
-          sx={{
-            fontWeight: 700,
-          }}
         >
           The Venue
         </Typography>
         <Typography
-          variant="h6"
+          variant={'h3'}
+          component={'h2'}
+          align={'center'}
           gutterBottom
-          align="center"
+          sx={{
+            fontWeight: 900,
+            textTransform: 'uppercase',
+          }}
         >
           Palazzo Visconti di Modrone
         </Typography>

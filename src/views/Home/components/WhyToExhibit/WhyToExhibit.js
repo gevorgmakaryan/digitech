@@ -2,21 +2,23 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
 
 const WhyToExhibit = () => {
   return (
     <Box>
       <Typography
         variant={'h3'}
-        component={'h3'}
+        component={'h2'}
         align={'center'}
         sx={{
-          fontWeight: 700,
+          fontWeight: 900,
+          textTransform: 'uppercase',
         }}
       >
         Why to exhibit
       </Typography>
-      <Box marginTop={4}>
+      <Box marginTop={{ xs: 4, md: 6 }}>
         <Grid container spacing={4}>
           {[{
             title: 'Participants',
@@ -37,17 +39,27 @@ const WhyToExhibit = () => {
             title: 'Recruiting',
             subtitle: 'Recruiting opportunity for companies who are in search of specialized IT professionals.',
           }].map((item, i) => (
-            <Grid item xs={12} sm={6} md={4} key={i}>
-              <Typography variant="h6" gutterBottom>
-                <strong>
-                  {item.title}
-                </strong>
+            <Grid item xs={12} sm={6} key={i}>
+              <Typography
+                variant="h5"
+                gutterBottom
+                fontWeight={900}
+                sx={{
+                  textTransform: 'uppercase',
+                }}
+              >
+                {item.title}
               </Typography>
-              <Typography>
+              <Typography variant="h6" fontWeight={400} color={'textSecondary'}>
                 {item.subtitle}
               </Typography>
             </Grid>
           ))}
+          <Grid item container xs={12} justifyContent={'center'}>
+            <Button size={'large'} component={'a'} href={'https://forms.gle/U4FFcrsNWCf559sV9'} target={'_blank'} variant={'contained'}>
+              Register to exhibit
+            </Button>
+          </Grid>
         </Grid>
       </Box>
     </Box>
