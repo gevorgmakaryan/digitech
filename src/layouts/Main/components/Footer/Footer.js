@@ -31,13 +31,6 @@ const Footer = () => (
             textDecoration: 'none !important',
           }}
         >
-          <Box
-            component="img"
-            width={{ xs: 40, sm: 50 }}
-            src={'/assets/logos/logo.svg'}
-            alt="DigiTech Milan"
-            marginRight={{ xs: 1, sm: 2 }}
-          />
           <Box display={'flex'} flexDirection={'column'} alignItems={'flex-start'}>
             <Box
               component="img"

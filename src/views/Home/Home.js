@@ -13,26 +13,6 @@ const Home = () => {
         position="relative" 
         sx={{
           backgroundColor: theme.palette.background.dark,
-          '&:before': {
-            position: 'absolute',
-            left: 0,
-            bottom: 0,
-            width: { xs: 150, sm: 250, md: 350, lg: 450 },
-            height: { xs: 150, sm: 250, md: 350, lg: 450 },
-            content: '""',
-            zIndex: 1,
-            background: 'url(/assets/backgrounds/pattern-left.svg) left center / contain no-repeat',
-          },
-          '&:after': {
-            position: 'absolute',
-            right: 0,
-            top: 0,
-            width: { xs: 150, sm: 250, md: 350, lg: 450 },
-            height: { xs: 150, sm: 250, md: 350, lg: 450 },
-            content: '""',
-            zIndex: 1,
-            background: 'url(/assets/backgrounds/pattern-right.svg) left center / contain no-repeat',
-          },
         }}
       >
         <Box
@@ -87,26 +67,6 @@ const Home = () => {
         position="relative" 
         sx={{
           backgroundColor: theme.palette.alternate.main,
-          '&:before': {
-            position: 'absolute',
-            left: 0,
-            bottom: 0,
-            width: { xs: 100, sm: 100, md: 200, lg: 300 },
-            height: { xs: 100, sm: 100, md: 200, lg: 300 },
-            content: '""',
-            zIndex: 1,
-            background: 'url(https://adworldconference.com/images/patterns/pattern-left-4.svg) left center / contain no-repeat',
-          },
-          '&:after': {
-            position: 'absolute',
-            right: 0,
-            top: 0,
-            width: { xs: 100, sm: 100, md: 200, lg: 300 },
-            height: { xs: 100, sm: 100, md: 200, lg: 300 },
-            content: '""',
-            zIndex: 1,
-            background: 'url(https://adworldconference.com/images/patterns/pattern-right-4.svg) left center / contain no-repeat',
-          },
         }}
       >
         <Container position={'relative'} zIndex={3}>
